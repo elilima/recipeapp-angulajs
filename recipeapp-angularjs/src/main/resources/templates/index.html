@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="css/bootstrap.css" rel="stylesheet"/>
+    <!--  link href="css/app.css" rel="stylesheet"/>-->
+    <script src="js/lib/angular.js" ></script>
+    <!-- script src="js/lib/angular-router.js" ></script> -->
+    <script src="js/app/app.js"></script>
+    <script src="js/app/recipeController.js"></script>
+</head>
+<body  ng-app="recipes">
+	<div ng-controller="recipeController"> 
+		<h1>{{app}}</h1>
+		
+	</div>
+	<!--
+	<table border=1>
+		<tr>
+			<th>ID</th>
+			<th>Description</th>
+		</tr>
+		
+		<tr th:each="recipe : ${recipes}">
+			<td th:text="${recipe.id}"></td>
+			<td th:text="${recipe.description}"></td>
+		</tr>
+	</table>
+	-->
+	
+	
+</body>
+</html>
